@@ -32,7 +32,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-bg-success {
+  color: #fff !important;
+  background-color: RGBA(12, 188, 135, var(--bs-bg-opacity, 1)) !important;
+}
+
+.text-success {
+  --bs-success-rgb: 12, 188, 135;
+}
+
+.circle-icon {
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  height: 16px;
+  text-align: center;
+  line-height: 21px;
+  width: 16px;
+}
+
+.btn-primary-soft {
+  color: #5143d9;
+  background-color: rgba(81, 67, 217, 0.1);
+  border-radius: 0.4rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #5143d9;
+}
+
+.nav-link {
+  color: #0b0a12;
+}
+
+h6 {
+  font-weight: 700;
+}
+
+.btn-primary-soft:hover {
+  background-color: #5143d9;
+  color: white;
 }
